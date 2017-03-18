@@ -1,3 +1,4 @@
+library(ggplot2)
 plot.theme = theme(axis.text.x = element_text(size = 20, family = "Ubuntu"),
                    axis.title.x = element_blank(),
                    panel.background = element_blank(),
