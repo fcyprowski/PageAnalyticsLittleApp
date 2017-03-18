@@ -17,7 +17,7 @@ shinyUI(pageWithSidebar(
   # Sidebar with controls to select a dataset and specify the number
   # of observations to view
   sidebarPanel(
-    textInput("token", "Get your User Access Token:", 'EAACEdEose0cBADnhEa6L1qJZAkmAXsfgfOfALSabPP5YcREdFgoaXXOYAllZC67ZCSOqySN6ytvQukpmva67PoQvhm6du3Sq5cvdkXHAzeZBdK4t75PCsoRJsaC7ZBi9eMZAWai6MkR8gZCJTQ1ynXB8gT7aWLAUdL7VkTwLzji0z1tApUUI75WExqImRHRZC4wZD'),
+    textInput("token", "Get your User Access Token:", ""),
     numericInput("facebook.id", "Insert here Facebook ID:", 298917980283437),
     dateRangeInput("date.range", "Please, provide the timerange:"),
     actionButton("goButton", "Go!")
